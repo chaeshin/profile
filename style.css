@@ -72,8 +72,14 @@ li {
   margin: 8px;
 }
 
+@media (max-width: 1800px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
 
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
