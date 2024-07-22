@@ -41,7 +41,7 @@ body {
 .img-rounded {
   border-radius: 50%;
   max-width: 50%;
-  height: auto
+  height: auto;
   margin: auto;
   opacity: 0.8;
 }
